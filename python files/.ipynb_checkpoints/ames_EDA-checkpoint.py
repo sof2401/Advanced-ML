@@ -156,8 +156,6 @@ st.plotly_chart(fig)
 
 
 
-
-
 def plot_hist(df, column):
     fig, ax = plt.subplots()
     sns.histplot(data = df, x = column)
